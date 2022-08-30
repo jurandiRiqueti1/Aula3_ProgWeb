@@ -1,0 +1,30 @@
+Olá, aqui é a Profe Fran e vamos fazer passo a passo a configuração para 
+que esse pequeno projeto funcione.
+
+crie uma base de dados no mysq chamada CRUD
+
+create database CRUD;
+
+depois no terminar do vscode instale o mysql
+
+npm install mysql2
+
+vamos usar o mysql2 pq ele é mais rapido
+
+para criar a tabela no banco vamos digitar no vscode
+
+node webapi/create-table.js
+
+verifique se criou a tabela e a populou no banco
+
+na sequencia vamos instalar o express: O Express oferece soluções para: 
+Gerenciar requisições de diferentes verbos HTTP em diferentes URLs
+
+npm install express
+
+node webapi/index.js
+
+depois poderemos ver as infos no browser
+
+localhost:3000
+localhost:3000/clientes
